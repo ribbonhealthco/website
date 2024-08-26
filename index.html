@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribbon Health</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            font-weight: 300;
+            color: #666;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-item {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 30px 20px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-item:hover {
+            background-color: #f1f1f1;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-item i {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #00d1b2;
+        }
+
+        .feature-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .feature-item p {
+            font-size: 1.1em;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Ribbon Health</h1>
+        <p>Your Comprehensive Digital Health Record Manager</p>
+
+        <h2>What is Ribbon Health?</h2>
+        <p>Ribbon Health is a powerful digital tool designed to help organizations manage health-related information with ease and efficiency. Unlike typical hospital-based EMS systems, Ribbon Health is crafted specifically for non-hospital organizations, such as non-profits and research institutions, that provide out-of-hospital care and related services.</p>
+
+        <h2>Key Features</h2>
+        <div class="features">
+            <div class="feature-item">
+                <i class="fas fa-user-md"></i>
+                <h3>Individual Health Profiles</h3>
+                <p>Create and manage comprehensive health profiles for individuals, including personal information, vitals, administered drugs, and vaccination statuses.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-users"></i>
+                <h3>Community Profiles</h3>
+                <p>Set up and manage profiles for groups, enabling efficient healthcare administration for communities.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-pills"></i>
+                <h3>Inventory Management</h3>
+                <p>Keep track of all medical supplies, consumables, and drugs with an easy-to-use inventory system.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-user-friends"></i>
+                <h3>Team Collaboration</h3>
+                <p>Invite team members to collaborate and manage health records together, ensuring everyone stays updated and informed.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
